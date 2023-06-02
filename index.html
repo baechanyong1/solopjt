@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>배찬용</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>배찬용</h1>
+    </header>
+    <form class="search" id="search-form" onsubmit="handleSearch(event)">
+      <label for="search-input">영화 검색하기 : </label>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="영화 제목을 검색해 보세요"
+      />
+      <button type="submit">검색</button>
+    </form>
+    <section class="card-list" id="cards"></section>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="enter.js"></script>
+  </body>
+</html>
